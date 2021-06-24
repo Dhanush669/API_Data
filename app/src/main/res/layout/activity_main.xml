@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:background="#DDDDDD"
     tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/errorMessage"
-        android:text="Unable to Get data!"
-        android:textSize="24sp"
+        android:text="Market"
+        android:textSize="22sp"
+        android:layout_gravity="center"
         android:textStyle="bold"
-        android:visibility="gone"
+        android:textColor="#FF0000"
+        android:layout_margin="10dp"
         >
     </TextView>
 
